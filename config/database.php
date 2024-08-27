@@ -3,7 +3,7 @@
     $db_user = "root";
     $db_pass = "10RelationalDatabasesAreVeryUseful!";
     $db_name = "businessdb";
-    $conn = "";
+    $conn;
     try {
         $conn = mysqli_connect($db_server,
                                $db_user,
