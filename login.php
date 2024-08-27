@@ -39,5 +39,6 @@
         <button type="submit">Login</button>
     </form>
     <?php if (isset($error)) { echo "<p>$error</p>"; } ?>
+    <p>Don't have an account? <a href="signup.php">Sign up here</a></p>
 </body>
 </html>
